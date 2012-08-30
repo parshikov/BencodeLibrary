@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BencodeLibrary", "BencodeLibrary\BencodeLibrary.csproj", "{0305B6F5-8BAF-4B97-8BB5-50550C1C6F3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{92ABF625-D24C-4E28-AB22-3A59A87100AB}"
+	ProjectSection(SolutionItems) = preProject
+		Bencoding.vsmdi = Bencoding.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BencodeLibrary_Test", "BencodeLibrary_Test\BencodeLibrary_Test.csproj", "{3A0697A2-3483-4FA4-B17F-A811A540CE91}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Bencoding.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0305B6F5-8BAF-4B97-8BB5-50550C1C6F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0305B6F5-8BAF-4B97-8BB5-50550C1C6F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0305B6F5-8BAF-4B97-8BB5-50550C1C6F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0305B6F5-8BAF-4B97-8BB5-50550C1C6F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A0697A2-3483-4FA4-B17F-A811A540CE91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0697A2-3483-4FA4-B17F-A811A540CE91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0697A2-3483-4FA4-B17F-A811A540CE91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0697A2-3483-4FA4-B17F-A811A540CE91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

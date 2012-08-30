@@ -1,0 +1,7 @@
+Bencode library to encode and decode bencoding strings. Bencode is most often used in Bittorrent applications, for encoding of .torrent files.
+
+Library is developed in C#.
+
+##COPYRIGHTS & LICENSE
+
+See here http://bencode.codeplex.com/
