@@ -2,6 +2,7 @@ Bencode library to encode and decode bencoding strings. Bencode is most often us
 
 Library is developed in C#.
 
-##COPYRIGHTS & LICENSE
+COPYRIGHTS & LICENSE
+--------------------
 
 See here http://bencode.codeplex.com/
