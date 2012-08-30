@@ -32,7 +32,7 @@ namespace BencodeLibrary
         static BencodingUtils()
         {
             // Extended ASCII encoding - http://stackoverflow.com/questions/4623650/encode-to-single-byte-extended-ascii-values
-            ExtendedASCIIEncoding = Encoding.GetEncoding(437);
+            ExtendedASCIIEncoding = Encoding.UTF8;
         }
 
         /// <summary>
@@ -42,6 +42,15 @@ namespace BencodeLibrary
         /// <returns>A bencoded object.</returns>
         public static IBencodingType DecodeFile(string fileName)
         {
+            using (FileStream fileStream = File.OpenRead(fileName))
+            {
+                return Decode(fileStream);
+            }
+        }
+
+        public static IBencodingType DecodeFile(string fileName, Encoding enc)
+        {
+            ExtendedASCIIEncoding = enc;
             using (FileStream fileStream = File.OpenRead(fileName))
             {
                 return Decode(fileStream);
